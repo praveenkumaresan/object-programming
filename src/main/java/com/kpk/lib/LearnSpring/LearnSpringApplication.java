@@ -1,6 +1,7 @@
 package com.kpk.lib.LearnSpring;
 
 import com.kpk.lib.LearnSpring.collectionframework.LearnCollection;
+import com.kpk.lib.LearnSpring.streamsframework.LearnStreams;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,9 +18,9 @@ public class LearnSpringApplication {
 
         LearnCollection.invokeCollectionDemo();
 
+        LearnStreams.performStream();
+
         SpringApplication.run(LearnSpringApplication.class, args);
-
-
 
     }
 }
