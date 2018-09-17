@@ -14,6 +14,10 @@ import org.springframework.stereotype.Component;
 @SpringBootApplication
 public class LearnSpringApplication {
 
+    /**
+     * TODO boot the application
+     * @param args
+     */
     public static void main(String[] args) {
 
         SpringApplication.run(LearnSpringApplication.class, args);
