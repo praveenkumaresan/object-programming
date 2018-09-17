@@ -1,6 +1,5 @@
-package com.kpk.lib.LearnSpring.CollectionFramework;
+package com.kpk.lib.LearnSpring.collectionframework;
 
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 import org.springframework.stereotype.Component;
 
 import java.util.*;
@@ -32,7 +31,7 @@ public class LearnCollection {
 
         if (integerList.contains(3)){System.out.println("list is not containing 3");}
 
-        if (integerList.containsAll(testList)){System.out.print("testList is subset of integerList... ");}
+        if (integerList.containsAll(testList)){System.out.print("test list is subset of integer list... ");}
 
 
         /***
