@@ -48,7 +48,7 @@ public class LearnCollection {
 
         integerList.forEach(it -> System.out.println("element in the list --> " +it));
 
-        System.out.println("sum of list --> " +Collections.binarySearch(integerList,56));
+        System.out.println("return position of element --> " +Collections.binarySearch(integerList,56));
 
 
     }
