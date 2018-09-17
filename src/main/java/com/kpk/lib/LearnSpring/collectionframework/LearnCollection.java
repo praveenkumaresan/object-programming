@@ -1,7 +1,9 @@
 package com.kpk.lib.LearnSpring.collectionframework;
 
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.util.*;
 
 @Component
@@ -11,6 +13,7 @@ public class LearnCollection {
      * Collection - root interface of collection frame. No class that implements
      * collection directly
      */
+    @PostConstruct
     public static void invokeCollectionDemo(){
 
         List<Integer> testList = Arrays.asList(1);
